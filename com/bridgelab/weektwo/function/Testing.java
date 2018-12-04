@@ -15,7 +15,7 @@ public class Testing {
 			
 		}
 		String permut[] = new String[perl];
-		System.out.println(s.substring(0, 1));
+		System.out.println(s.substring(0, 0));
 		for(int l=0; l < s.length(); l++)
 		{
 	String permu= "" +s.charAt(l);
@@ -29,10 +29,10 @@ public class Testing {
 		permut[l]=permu;
 		}
 	
-	/*for(int i=0;i<s.length();i++)
+	for(int i=0;i<s.length();i++)
 	{
 		System.out.println(permut[i]);
-	}*/
+	}
 
 }
 }

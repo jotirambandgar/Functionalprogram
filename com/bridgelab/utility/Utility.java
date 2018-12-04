@@ -462,7 +462,7 @@ public static void permutationStr(String s2,String s1)
 			for(int i=0;i<s1.length();i++)
 			{
 				
-				permutationStr(s2+s1.charAt(i),s1.substring(0,i)+s1.substring(i+1,s1.length()));
+				permutationStr(s2+s1.charAt(i),s1.substring(0,i)+s1.substring(i+1,s1.length())); 
 		
 		}
 		}
